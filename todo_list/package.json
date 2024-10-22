@@ -1,0 +1,22 @@
+{
+  "name": "todo_list",
+  "version": "2.0.0",
+  "description": "a simple todo list app",
+  "main": "main.js",
+  "repository": "https://github.com/anithaguntreddi07/todo_list.git",
+  "author": "anitha_guntreddi",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "todo_list": "file:",
+    "Todo_list": "file:"
+  },
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^23.0.0",
+    "electron-winstaller": "^5.4.0",
+    "gulp": "^5.0.0"
+  }
+}
